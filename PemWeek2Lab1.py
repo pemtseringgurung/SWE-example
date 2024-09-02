@@ -27,6 +27,9 @@ class TestMultiply(unittest.TestCase):
         child_instance_third = Child()
         self.assertEqual(child_instance_third.division(12),6)
 
+    def test_division_again(self):
+        child_instance_fourth = Child()
+        self.assertEqual(child_instance_fourth.division(22),11)
 
     def test_addtion(self):
         child_instance_fifth = Child()
